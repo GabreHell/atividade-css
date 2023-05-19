@@ -1,0 +1,156 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+	max-width: 1920px;
+	margin: 0 auto;
+	background-color: #5e5b5bad;
+	color: #fff;
+}
+
+body > header {
+    background-color: #2f3640;
+    padding: 16px 0;
+    color: #fff;
+}
+img {
+    border-radius: 5px;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header li {
+    display: inline;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+header li a {
+    color: #fff;
+    text-decoration: none;
+
+}
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    width: 100%;
+}
+
+.articles article {
+    width: 30%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2,
+.articles article{
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 8x;
+    margin-bottom: 8x;
+}
+
+#sports .articles article a {
+    background-color: rgb(10, 92, 44);
+    color: #fff;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+    border-radius: 5px;
+}
+#economy .articles article a {
+    background-color: rgb(10, 59, 92);
+    color: #fff;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+    border-radius: 5px;
+}
+#entretenimento .articles article a {
+    background-color: rgb(92, 10, 61);
+    color: #fff;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+    border-radius: 5px;
+}
+#tech .articles article a {
+    background-color: rgb(92, 70, 10);
+    color: #fff;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+    border-radius: 5px;
+}
+
+.articles article a:hover{
+    text-decoration: underline;
+    scale: 1.05;
+}
+
+.articles article p,
+.articles article a {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.articles article h3 {
+    font-size: 24px;
+}
+
+#sports h2 {
+    font-size:  32px;
+    color: #1e4e30;
+}
+#economy h2 {
+    font-size:  32px;
+    color: #1e374e;
+}
+#entretenimento h2 {
+    font-size:  32px;
+    color: #4e1e3c;
+}
+#tech h2 {
+    font-size:  32px;
+    color: #4e431e;
+}
+
+#sports:hover {
+    background-color: rgba(0, 255, 0, 0.1);
+}
+#economy:hover {
+    background-color: rgba(0, 217, 255, 0.1);
+}
+#entretenimento:hover {
+    background-color: rgba(255, 0, 140, 0.1);
+}
+#tech:hover {
+    background-color: rgba(255, 196, 0, 0.1);
+}
